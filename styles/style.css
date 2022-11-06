@@ -1,0 +1,35 @@
+body {
+    font-family: 'Comfortaa';
+    font-style: normal;
+}
+
+.wrapper {
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background: #95a6fbdd;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1.15em;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    width: 43.5%;
+    height: 40px;
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="normalize" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=PT+Sans&display=swap"
+        rel="stylesheet">
+    <title>Tasks</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Задачи с массивами</h1>
+        <div class="tasks">
+            <p>Задача 1. Дан массив ['js', 'css', 'html']. Выведите на экран первый элемент.</p>
+            <button id="task1" onclick="showResult1();">Решение</button><br>
+            <p>Задача 2. Отфильтруйте массив [0, 1, false, 2, undefined, '', 3, null] от нежелательных значений, таких
+                как false, undefined, пустые строки, 0, null с помощью метода filter. Ожидаемый результат: [1, 2, 3].
+            </p>
+            <button id="task2" onclick="showResult2();">Решение</button><br>
+            <p>Задача 3. Дан массив [[1,2], [1,2,3], [1,2,3,4]]. Найдите индекс массива, длина которого > 3. Ожидаемый
+                результат: 2</p>
+            <button id="task3" onclick="showResult3();">Решение</button><br>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
